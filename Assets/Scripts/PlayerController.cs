@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
             // {
             isOnWall = true;
             transform.rotation = Quaternion.Euler(0, movingRight ? oppsiteRotationY : defaultRotationY, 0);
-            rb.gravityScale = 6f;
+            rb.gravityScale = 4f;
             // }
         }
         if (collision.gameObject.CompareTag("Top-Wall"))

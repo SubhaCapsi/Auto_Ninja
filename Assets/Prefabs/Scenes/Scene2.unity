@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d035c51db40adc047979543241327966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 1992517187716471372}
   target: {fileID: 2056810348}
   offset: {x: 0, y: 0, z: 0}
   zoom: 5
@@ -1118,6 +1118,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5018e87fccb90c542a159b4d841abef5, type: 3}
+--- !u!114 &1992517187716471372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1811575799858913572, guid: 5018e87fccb90c542a159b4d841abef5, type: 3}
+  m_PrefabInstance: {fileID: 1992517187716471371}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056810343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 647424baad3f52a48b48800fe9414532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2856504040714220460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1568,7 +1579,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4029203218568196308, guid: ba32b7395396eca4fa5bf77982d555e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.3122015
+      value: 6.04
       objectReference: {fileID: 0}
     - target: {fileID: 4029203218568196308, guid: ba32b7395396eca4fa5bf77982d555e6, type: 3}
       propertyPath: m_LocalPosition.y

@@ -1681,7 +1681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d035c51db40adc047979543241327966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 1870829312}
   target: {fileID: 1870829311}
   offset: {x: 0, y: 0, z: 0}
   zoom: 5
@@ -1862,6 +1862,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6456307069211115880, guid: 5018e87fccb90c542a159b4d841abef5, type: 3}
   m_PrefabInstance: {fileID: 1870829310}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1870829312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1811575799858913572, guid: 5018e87fccb90c542a159b4d841abef5, type: 3}
+  m_PrefabInstance: {fileID: 1870829310}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214781704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 647424baad3f52a48b48800fe9414532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1973470257 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 493024806518157398, guid: fbe49d5c20ced7348bcc1144c7731bfa, type: 3}
